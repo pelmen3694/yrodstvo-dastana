@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+    font-family: "comic sans", cursive;
+}h1{
+    font-size: 100px;
+}.korobka{
+    color: #ffffff;
+    padding: 0 100px;
+    text-align: center;
+    height: 100vh;
+    width: 50%;
+    margin: 0 15px 0 15px;
+
+}.hcenter{
+    align-items: center;
+}.korobka1{
+    color: #ffffff;
+    padding: 0 100px;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    margin: 0 15px 0 15px;
+
+}.wcenter{
+   justify-content: center; 
+}.dflex{
+    display: flex;
+}.sectionHero{
+    background-color: #b9159e;
+
+}
+.sectionHero1{
+    background-color: #132bb3;
+
+}
+.sectionHero2{
+    background-color: #ff0000;
+
+}
+.sectionHero3{
+    background-color: #552323;
+
+}.prizrak{
+    position: absolute;
+    width: 80px;
+    left: 0px;
+
+}.t200{
+    top: 200px;
+
+}.t300{
+    top: 300px;
+}.t400{
+    top: 400px;
+
+}.t500{
+    top: 500px;
+
+}.t600{
+    top: 600px;
+
+}img{
+    width: 100%;
+    z-index: 6;
+
+}.krug{
+    z-index: 5;
+    position: absolute;
+    top: 500px;
+    height: 10px;
+     width: 10px;
+    left: calc(50% + 500px );
+    background-color: white;
+    box-shadow: 0 0 220px 200px rgb(222, 231, 97);
+}.krug1{
+    z-index: 5;
+    position: absolute;
+    top: 1000px;
+    height: 150px;
+     width: 200px;
+    left: calc(30% + 500px );
+    background-color: white;
+    box-shadow: 0 0 220px 200px rgb(222, 231, 97);
+}.krug2{
+    z-index: 5;
+    position: absolute;
+    top: 1500px;
+    height: 10px;
+     width: 80px;
+    left: calc(250px );
+    background-color: white;
+    box-shadow: 0 0 220px 200px rgb(222, 231, 97);
+}.krug3{
+    z-index: 5;
+    position: absolute;
+    top: 2000px;
+    height: 40px;
+     width: 30px;
+    left: calc(500px );
+    background-color: white;
+    box-shadow: 0 0 220px 200px rgb(222, 231, 97);
+}.krug4{
+    z-index: 5;
+    position: absolute;
+    top: 2500px;
+    height: 100px;
+     width: 50px;
+    left: calc(10% + 1000px );
+    background-color: white;
+    box-shadow: 0 0 220px 200px rgb(222, 231, 97);
+}
+.btn{
+    background-color: black;
+    color: pink;
+    font-size: 50px;
+    text-decoration: none;
+    padding: 10px 30px;
+} 
+nav{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    background-color: #8B4513;
+}
+.link{
+    font-size: 30px;
+    margin: 0 0 0 50px;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo{
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+    border: 10px dotted rgb(59, 59, 59);
+    padding: 10px 60px;
+}
+.right{
+    position: absolute;
+    right: 80px;
+}
+.btn_krasiviy{
+    background-color: pink;
+    color: black;
+    padding: 7px 30px;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn_krasiviy:hover{
+    background-color: rgb(36, 23, 25);
+    color: rgb(126, 65, 65);
+    box-shadow: 0 0 5px 5px rgb(57, 209, 19);
+    
+}
